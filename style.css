@@ -30,16 +30,31 @@ video {
     display: block;
 }
 
-a {
-    color: currentColor;
+button {
+    position: relative;
+    width: 200px;
+    padding: 15px 0;
+    text-align: center;
+    margin: 7px 7px;
     font-weight: bold;
-    text-decoration: none;
+    border: 2px solid #10af0b;
+    background: transparent;
+    cursor: pointer;
+    overflow: hidden;
+    text-transform: uppercase;
 }
 
-a:visited {
-    font-weight: bold;
+span {
+    background: #10af0b;
+    height: 100%;
+    width: 0;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    transition: 0.5s;
 }
 
-a:hover {
-    font-size: larger;
+button:hover span {
+    width: 100%;
 }
