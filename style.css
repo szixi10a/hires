@@ -2,6 +2,11 @@
     text-align: center;
 }
 
+.bevezetes {
+    font-weight: bold;
+    font-style: italic;
+}
+
 
 
 
@@ -18,9 +23,19 @@ body {
 }
 
 h1 {
-    background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);
+    background-image: linear-gradient(to left, darkgreen, green, darkgreen, green, darkgreen);
     border-radius: 10px;
     padding-left: 5px;
+}
+
+h2 {
+    background-color: lightgreen;
+    font-weight: bolder;
+}
+
+p {
+    text-align: justify;
+    text-indent: 10px;
 }
 
 img,
@@ -28,6 +43,11 @@ svg,
 video {
     max-width: 100%;
     display: block;
+    max-height: 600px;
+    float: left;
+    margin: 10px 10px 10px 0;
+    border-radius: 10px;
+    border: 1px black solid;
 }
 
 button {
@@ -57,4 +77,64 @@ span {
 
 button:hover span {
     width: 100%;
+}
+
+body>p>a {
+    font-weight: bold;
+    text-decoration: none;
+    background-color: darkgreen;
+    border-radius: 10px;
+    border: 2px solid black;
+    padding: 5px 30px;
+
+color: lightgreen;}
+body>p>a:hover {
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: larger;
+    box-shadow: 0 0 5px darkgreen, 0 0 25px darkgreen, 0 0 50px darkgreen, 0 0 75px green;
+}
+body>p>a:visited {
+    color: lightgreen;
+    text-decoration: none;
+}
+
+body>a {
+    font-weight: bold;
+    text-decoration: none;
+    background-color: darkgreen;
+    border-radius: 10px;
+    border: 2px solid black;
+    padding: 10px 30px;
+    color: lightgreen;
+}
+body>a:hover {
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: larger;
+    box-shadow: 0 0 5px darkgreen, 0 0 25px darkgreen, 0 0 50px darkgreen, 0 0 75px green;
+}
+body>a:visited {
+    color: lightgreen;
+    text-decoration: none;
+}
+
+body>footer>a {
+    font-weight: bold;
+    text-decoration: none;
+    background-color: darkgreen;
+    border-radius: 10px;
+    border: 2px solid black;
+    padding: 10px 30px;
+    color: lightgreen;
+}
+body>footer>a:hover {
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: larger;
+    box-shadow: 0 0 5px darkgreen, 0 0 25px darkgreen, 0 0 50px darkgreen, 0 0 75px green;
+}
+body>footer>a:visited {
+    color: lightgreen;
+    text-decoration: none;
 }
