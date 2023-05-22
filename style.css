@@ -7,6 +7,10 @@
     font-style: italic;
 }
 
+.be {
+    padding-left: 40px;
+}
+
 
 
 
@@ -119,22 +123,6 @@ body>a:visited {
     text-decoration: none;
 }
 
-body>footer>a {
-    font-weight: bold;
-    text-decoration: none;
-    background-color: darkgreen;
-    border-radius: 10px;
-    border: 2px solid black;
-    padding: 10px 30px;
-    color: lightgreen;
-}
-body>footer>a:hover {
-    text-decoration: none;
-    text-transform: capitalize;
-    font-size: larger;
-    box-shadow: 0 0 5px darkgreen, 0 0 25px darkgreen, 0 0 50px darkgreen, 0 0 75px green;
-}
-body>footer>a:visited {
-    color: lightgreen;
-    text-decoration: none;
+footer>p {
+    font-style: italic;
 }
